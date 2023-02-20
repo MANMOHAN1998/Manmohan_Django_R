@@ -1,5 +1,10 @@
-h1{color: greenyellow;}
+h1{color: black;}
 
-.dataframe{text-align: left;color: greenyellow;}
+.dataframe{text-align: left;color: black;}
 .tr{text-align: left;}
-.search{position: absolute !important;left: 100px !important}
+.search{position:relative;background-color: gray;align-items: center;display: flex;justify-content: space-around;height: 300px;}
+input{left: 100px;}
+.id1{position: absolute;top:0px; color: white;}
+label{color: white;}
+tr{wrap-text: word-wrap;}
+td{}
