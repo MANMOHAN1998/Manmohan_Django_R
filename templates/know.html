@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Know | {% endblock title %}
+
+{% block body %}
+{% for post in data %}
+<h1>{{ post.name }}</h1>
+<p>{{ post.description }}</p>
+{% endfor %}
+{% endblock body %}
